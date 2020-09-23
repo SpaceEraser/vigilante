@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>il Perugino Caffe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            text-align: center;
+            width: calc(100% - 60px);
+            margin: 10px 30px;
+        }
+        @media only screen and (min-width: 768px) {
+            body {
+                width: 30%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+<body>Hi! You let your domain expire.<br>Luckily I snatched it up before some bad guy could get to it and put viruses and stuff here. Get in touch and you can have it back. You can even hire me and I'll cook you up an amazing website. <br> <a href="mailto:fixme@ilperuginocaffe.com">fixme@ilperuginocaffe.com</a> 
+
+    <script>
+        if (window.location.hash && window.location.hash === '#menu') {
+            document.body.innerHTML = "No menu here! Tell the owner that their website is down!<br><br>" + document.body.innerHTML;
+        }
+    </script>
+</body>
+</html>
